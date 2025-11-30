@@ -1,0 +1,148 @@
+Background 
+
+--> color 
+--> image 
+--> repeat
+--> attachment 
+--> position 
+
+
+
+Borders 
+
+--> styles 
+--> width
+--> color 
+--> sides 
+--> radius
+
+
+Margins
+
+--> top
+--> right
+--> left 
+--> bottom 
+--> auto -> centered items horizontal
+
+
+Padding 
+
+--> top
+--> right
+--> left 
+--> bottom 
+--> box sizing -border box -content box
+
+
+
+
+Height / Width 
+
+-> auto
+-> length
+-> % 
+-> initial
+-> inherit
+
+-> max-width - prvent element to be larger than the set width
+-> min-width - prvent element to be smaller than the set width
+
+
+Box Model
+
+Content
+Padding
+Margins
+Borders
+
+Outline -> beyond Borders
+
+color
+width
+offset -> this is the space between the border and Outline
+
+
+
+
+Display 
+
+inline | block 
+
+
+block -> start new line and stretch width as possible
+
+    <div>
+    <h1> - <h6>
+    <p>
+    <form>
+    <header>
+    <footer>
+    <section>
+
+inline -> takes space that just there no new line
+
+<span>
+<a>
+<img>
+
+
+
+contents 
+flex
+grid 
+inline-block -> make formatted as inline but can add width Height, padding and margin
+none
+
+
+
+Position 
+
+static -> always normal document flow
+relative -> normal but can be controlled using bot, top lef right
+fixed -> no matter what, it still in that position 
+absolute -> overlap the other document flow 
+sticky -> it stick when left behind using top, right, bottom or left  
+
+
+z index -> stack order of document 
+
+
+
+overflow 
+ 
+    visible
+    hidden
+    scroll
+    auto -> similar to scroll but add scroll bar if necessary 
+
+
+Float 
+    left
+    right
+    none
+    inherit -> get the float value of the parent
+    
+    clear -> it clean the float 
+
+--> needs to practice this 
+
+
+
+
+
+
+
+Center horizontal and vertical 
+
+margin : auto -> center horizontally 
+
+text-align : center -> center text horizontally
+
+
+horizontal and vertical 
+
+display : flex;
+justify-content : center;
+align-items : center;
+
