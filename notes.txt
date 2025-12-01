@@ -146,3 +146,77 @@ display : flex;
 justify-content : center;
 align-items : center;
 
+gird -> 
+place-items : center
+
+-> position 
+position : absolute
+
+
+
+
+Css combinators 
+
+space -> children, grandchildren, etc.
+> -> direct children
++ -> next sibling 
+~ -> sub sequent
+
+
+
+
+Pseudo Classes 
+
+selector:pseudo-class
+Style an element when a user moves the mouse over it
+Style visited and unvisited links differently
+Style an element when it gets focus
+Style valid/invalid/required/optional form elements
+Style an element that is the first child of its parent
+
+links -> 
+:link -> :visited -> :hover -> :active
+
+input -> 
+:focus 
+
+
+
+:lang(val)
+:root
+:target
+:modal
+:hover
+:fullscreen
+:focus
+:disabled
+:default
+
+
+
+Pseudo Elements 
+
+Style the first letter or line, of an element
+Insert content before or after an element
+Style the markers of list items
+Style the viewbox behind a dialog box
+
+::before
+::after
+
+A string: content: "Hello world!";
+An image: content: url(myimage.jpg);
+Nothing: content: none;
+A counter: content: counter(li);
+A quote: content: close-quote;
+An attribute value: content: " (" attr(href) ")";
+
+
+::selection
+::marker
+::first-letter
+::backdrop
+::placeholder
+
+
+
