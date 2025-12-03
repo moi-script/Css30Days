@@ -220,3 +220,33 @@ An attribute value: content: " (" attr(href) ")";
 
 
 
+
+
+Opacity 
+
+opacity : 0 - 1
+background-color : rgba (_, _, _, opacity)
+
+
+
+
+
+
+Dropdown 
+
+-> child will be on when parent is hovered
+
+
+
+
+Attribute selector 
+
+a[target]
+a[attribute="value"]
+[attribute~="value"] -> select that contains specific keyword
+
+
+
+
+
+
